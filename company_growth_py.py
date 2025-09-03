@@ -346,8 +346,6 @@ def add_technical_indicators(df):
 
     return df
 
-!pip install ta-lib
-
 """LightGBM with Technical Indicators"""
 
 import lightgbm as lgb
