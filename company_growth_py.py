@@ -661,8 +661,6 @@ plt.show()
 
 """CatBoost Classifier"""
 
-!pip install catboost
-
 from catboost import CatBoostClassifier
 from sklearn.metrics import roc_auc_score, classification_report, confusion_matrix
 
